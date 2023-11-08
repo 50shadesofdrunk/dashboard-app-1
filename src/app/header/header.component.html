@@ -1,0 +1,12 @@
+<header class="header">
+  <div class="logo">MyLogo</div>
+  <div class="title">Dashboard</div>
+  <div class="user-info">
+    <span>John Doe</span>
+    <button mat-button [matMenuTriggerFor]="menu">Settings</button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>Profile</button>
+      <button mat-menu-item>Logout</button>
+    </mat-menu>
+  </div>
+</header>
