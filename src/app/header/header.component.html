@@ -2,10 +2,12 @@
   <div class="logo">MyLogo</div>
   <div class="title">Dashboard</div>
   <div class="user-info">
-    <span>John Doe</span>
-    <button mat-button [matMenuTriggerFor]="menu">Settings</button>
+    <span>TJ Watt</span>
+    <button mat-stroked-button [matMenuTriggerFor]="menu">Profile</button>
     <mat-menu #menu="matMenu">
-      <button mat-menu-item>Profile</button>
+      <button mat-stroked-button color="accent">Nope</button>
+      <button mat-menu-item>Production Profile</button>
+      <button mat-menu-item>Production Profile 2.0</button>
       <button mat-menu-item>Logout</button>
     </mat-menu>
   </div>

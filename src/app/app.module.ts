@@ -35,7 +35,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatPaginatorModule,
     MatCardModule,
     MatButtonModule,
-    MatMenuModule
+    MatMenuModule,
 
   ],
   providers: [],

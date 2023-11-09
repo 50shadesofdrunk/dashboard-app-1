@@ -1,0 +1,22 @@
+.header{
+  background-color: green;
+  text-shadow: 5px;
+  text-align: right;
+}
+
+.logo {
+  text-align: left;
+}
+
+.title {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 600;
+  color: chartreuse;
+
+}
+
+.user-info {
+  text-align: right;
+
+}
