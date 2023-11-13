@@ -1,0 +1,33 @@
+.sidebar {
+  display: flex;
+  width: 200px;
+  background-color: #333;
+  color: white;
+  height: 50vh; /* full height of the viewport */
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  padding: 10px 15px;
+  margin-bottom: 4px;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.sidebar ul li:hover {
+  background-color: #4CAF50;
+  border-left: 4px solid #fff;
+}
+
+/* Optional: Adding a hover effect for each list item */
+.sidebar ul li:not(:last-child) {
+  border-bottom: 1px solid #4CAF50;
+}

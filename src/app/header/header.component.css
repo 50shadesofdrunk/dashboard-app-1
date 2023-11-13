@@ -1,22 +1,65 @@
-.header{
-  background-color: green;
-  text-shadow: 5px;
-  text-align: right;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 
-.logo {
-  text-align: left;
+.header .logo {
+  font-size: 1.8em;
+  font-weight: 700;
 }
 
-.title {
+.header .title {
+  font-size: 1.5em;
+  flex-grow: 1;
   text-align: center;
-  font-size: x-large;
-  font-weight: 600;
-  color: chartreuse;
-
 }
 
-.user-info {
-  text-align: right;
+.header .user-info {
+  display: flex;
+  align-items: center;
+}
 
+.header .user-info span {
+  margin-right: 10px;
+}
+
+/* Angular Material Button */
+button[mat-button] {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button[mat-button]:hover {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+/* Angular Material Menu */
+mat-menu {
+  color: #333;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header .title,
+  .header .user-info {
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+  }
 }
