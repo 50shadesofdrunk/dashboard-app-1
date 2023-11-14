@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-charts',
@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./charts.component.css']
 })
 export class ChartsComponent {
-  
+
 
 }
